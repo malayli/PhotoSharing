@@ -4,13 +4,15 @@ import Combine
 @testable import PhotoSharing
 
 struct PhotoRepositoryTests {
-    @Test func testInit() async throws {
+    @Test("When initializing a photo repository, it should be created successfully")
+    func testInit() async throws {
         let photoRepository = PhotoRepository()
 
         #expect(photoRepository != nil)
     }
 
-    @Test func testFetchPhoto() throws {
+    @Test("When fetching a photo, it should return an empty array")
+    func testFetchPhoto() throws {
         let photoRepository = PhotoRepository()
         var cancellables = Set<AnyCancellable>()
         var fetchedPhotos: [Photo] = []
@@ -25,7 +27,8 @@ struct PhotoRepositoryTests {
         #expect(fetchedPhotos.count == 0, "The repository should not contain photo")
     }
 
-    @Test func testUploadPhoto() throws {
+    @Test("When uploading and then fetching photos, it should return a none-empty array")
+    func testUploadPhoto() throws {
         let photoRepository = PhotoRepository()
         let imageData = Data()
         let description = "A photo description."

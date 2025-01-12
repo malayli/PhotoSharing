@@ -4,7 +4,8 @@ import Foundation
 
 struct AlertMessageTests {
 
-    @Test func testInit() async throws {
+    @Test("When initializing an alert message, it should be created successfully")
+    func testInit() async throws {
         let message = "An alert message."
         let alertMessage = AlertMessage(message: message)
 

@@ -5,14 +5,16 @@ import Combine
 
 struct PhotosViewModelTests {
 
-    @Test func testInit() async throws {
+    @Test("When initializing a photo view model, it should be created successfully")
+    func testInit() async throws {
         let photoRepository = PhotoRepository()
         let photoViewModel = PhotosListViewModel(photoRepository: photoRepository)
 
         #expect(photoViewModel != nil)
     }
 
-    @Test func testUploadPhoto() async throws {
+    @Test("When uploading and then fetching photos, it should return a none-empty array")
+    func testUploadPhoto() async throws {
         let mockRepository = PhotoRepository()
         let viewModel = PhotosListViewModel(photoRepository: mockRepository)
 
