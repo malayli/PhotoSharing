@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		97D6A7A02D31A9FE00143267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97D6A7872D31A9FD00143267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D6A78E2D31A9FD00143267;
+			remoteInfo = PhotoSharing;
+		};
+		97D6A7AA2D31A9FE00143267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97D6A7872D31A9FD00143267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97D6A78E2D31A9FD00143267;
+			remoteInfo = PhotoSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97D6A78F2D31A9FD00143267 /* PhotoSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D6A79F2D31A9FE00143267 /* PhotoSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D6A7A92D31A9FE00143267 /* PhotoSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		97D6A7912D31A9FD00143267 /* PhotoSharing */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhotoSharing;
+			sourceTree = "<group>";
+		};
+		97D6A7A22D31A9FE00143267 /* PhotoSharingTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhotoSharingTests;
+			sourceTree = "<group>";
+		};
+		97D6A7AC2D31A9FE00143267 /* PhotoSharingUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhotoSharingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97D6A78C2D31A9FD00143267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6A79C2D31A9FE00143267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6A7A62D31A9FE00143267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97D6A7862D31A9FD00143267 = {
+			isa = PBXGroup;
+			children = (
+				97D6A7912D31A9FD00143267 /* PhotoSharing */,
+				97D6A7A22D31A9FE00143267 /* PhotoSharingTests */,
+				97D6A7AC2D31A9FE00143267 /* PhotoSharingUITests */,
+				97D6A7902D31A9FD00143267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97D6A7902D31A9FD00143267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97D6A78F2D31A9FD00143267 /* PhotoSharing.app */,
+				97D6A79F2D31A9FE00143267 /* PhotoSharingTests.xctest */,
+				97D6A7A92D31A9FE00143267 /* PhotoSharingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97D6A78E2D31A9FD00143267 /* PhotoSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D6A7B32D31A9FE00143267 /* Build configuration list for PBXNativeTarget "PhotoSharing" */;
+			buildPhases = (
+				97D6A78B2D31A9FD00143267 /* Sources */,
+				97D6A78C2D31A9FD00143267 /* Frameworks */,
+				97D6A78D2D31A9FD00143267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				97D6A7912D31A9FD00143267 /* PhotoSharing */,
+			);
+			name = PhotoSharing;
+			packageProductDependencies = (
+			);
+			productName = PhotoSharing;
+			productReference = 97D6A78F2D31A9FD00143267 /* PhotoSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97D6A79E2D31A9FE00143267 /* PhotoSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D6A7B62D31A9FE00143267 /* Build configuration list for PBXNativeTarget "PhotoSharingTests" */;
+			buildPhases = (
+				97D6A79B2D31A9FE00143267 /* Sources */,
+				97D6A79C2D31A9FE00143267 /* Frameworks */,
+				97D6A79D2D31A9FE00143267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97D6A7A12D31A9FE00143267 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				97D6A7A22D31A9FE00143267 /* PhotoSharingTests */,
+			);
+			name = PhotoSharingTests;
+			packageProductDependencies = (
+			);
+			productName = PhotoSharingTests;
+			productReference = 97D6A79F2D31A9FE00143267 /* PhotoSharingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		97D6A7A82D31A9FE00143267 /* PhotoSharingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97D6A7B92D31A9FE00143267 /* Build configuration list for PBXNativeTarget "PhotoSharingUITests" */;
+			buildPhases = (
+				97D6A7A52D31A9FE00143267 /* Sources */,
+				97D6A7A62D31A9FE00143267 /* Frameworks */,
+				97D6A7A72D31A9FE00143267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97D6A7AB2D31A9FE00143267 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				97D6A7AC2D31A9FE00143267 /* PhotoSharingUITests */,
+			);
+			name = PhotoSharingUITests;
+			packageProductDependencies = (
+			);
+			productName = PhotoSharingUITests;
+			productReference = 97D6A7A92D31A9FE00143267 /* PhotoSharingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97D6A7872D31A9FD00143267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					97D6A78E2D31A9FD00143267 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					97D6A79E2D31A9FE00143267 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 97D6A78E2D31A9FD00143267;
+					};
+					97D6A7A82D31A9FE00143267 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 97D6A78E2D31A9FD00143267;
+					};
+				};
+			};
+			buildConfigurationList = 97D6A78A2D31A9FD00143267 /* Build configuration list for PBXProject "PhotoSharing" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97D6A7862D31A9FD00143267;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 97D6A7902D31A9FD00143267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97D6A78E2D31A9FD00143267 /* PhotoSharing */,
+				97D6A79E2D31A9FE00143267 /* PhotoSharingTests */,
+				97D6A7A82D31A9FE00143267 /* PhotoSharingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97D6A78D2D31A9FD00143267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6A79D2D31A9FE00143267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6A7A72D31A9FE00143267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97D6A78B2D31A9FD00143267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6A79B2D31A9FE00143267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D6A7A52D31A9FE00143267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97D6A7A12D31A9FE00143267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D6A78E2D31A9FD00143267 /* PhotoSharing */;
+			targetProxy = 97D6A7A02D31A9FE00143267 /* PBXContainerItemProxy */;
+		};
+		97D6A7AB2D31A9FE00143267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97D6A78E2D31A9FD00143267 /* PhotoSharing */;
+			targetProxy = 97D6A7AA2D31A9FE00143267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		97D6A7B12D31A9FE00143267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97D6A7B22D31A9FE00143267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97D6A7B42D31A9FE00143267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoSharing/Preview Content\"";
+				DEVELOPMENT_TEAM = 94XL68BDKW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to your photo library to upload images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfox.PhotoSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		97D6A7B52D31A9FE00143267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhotoSharing/Preview Content\"";
+				DEVELOPMENT_TEAM = 94XL68BDKW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to your photo library to upload images.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfox.PhotoSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		97D6A7B72D31A9FE00143267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94XL68BDKW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfox.PhotoSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSharing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoSharing";
+			};
+			name = Debug;
+		};
+		97D6A7B82D31A9FE00143267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94XL68BDKW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfox.PhotoSharingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoSharing.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoSharing";
+			};
+			name = Release;
+		};
+		97D6A7BA2D31A9FE00143267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94XL68BDKW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfox.PhotoSharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoSharing;
+			};
+			name = Debug;
+		};
+		97D6A7BB2D31A9FE00143267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 94XL68BDKW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.digitalfox.PhotoSharingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PhotoSharing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97D6A78A2D31A9FD00143267 /* Build configuration list for PBXProject "PhotoSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6A7B12D31A9FE00143267 /* Debug */,
+				97D6A7B22D31A9FE00143267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D6A7B32D31A9FE00143267 /* Build configuration list for PBXNativeTarget "PhotoSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6A7B42D31A9FE00143267 /* Debug */,
+				97D6A7B52D31A9FE00143267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D6A7B62D31A9FE00143267 /* Build configuration list for PBXNativeTarget "PhotoSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6A7B72D31A9FE00143267 /* Debug */,
+				97D6A7B82D31A9FE00143267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97D6A7B92D31A9FE00143267 /* Build configuration list for PBXNativeTarget "PhotoSharingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D6A7BA2D31A9FE00143267 /* Debug */,
+				97D6A7BB2D31A9FE00143267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97D6A7872D31A9FD00143267 /* Project object */;
+}
